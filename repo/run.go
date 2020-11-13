@@ -1,10 +1,10 @@
 package repo
 
 import (
-	"bitbucket.org/961961/tsan/jone"
-	"bitbucket.org/shaman/lik"
-	"bitbucket.org/shaman/lik/likapi"
-	"bitbucket.org/shaman/lik/likbase"
+	"github.com/massarakhsh/tsan/jone"
+	"github.com/massarakhsh/lik"
+	"github.com/massarakhsh/lik/likapi"
+	"github.com/massarakhsh/lik/likbase"
 	"fmt"
 	"os"
 	"sync"

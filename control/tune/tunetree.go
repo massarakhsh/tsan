@@ -1,9 +1,9 @@
 package tune
 
 import (
-	"bitbucket.org/961961/tsan/repo"
-	"bitbucket.org/shaman/lik"
-	"bitbucket.org/shaman/lik/likdom"
+	"github.com/massarakhsh/tsan/repo"
+	"github.com/massarakhsh/lik"
+	"github.com/massarakhsh/lik/likdom"
 	"fmt"
 	"regexp"
 	"strings"

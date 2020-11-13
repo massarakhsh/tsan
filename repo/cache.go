@@ -1,8 +1,8 @@
 package repo
 
 import (
-	"bitbucket.org/961961/tsan/jone"
-	"bitbucket.org/shaman/lik"
+	"github.com/massarakhsh/tsan/jone"
+	"github.com/massarakhsh/lik"
 	"sync"
 	"time"
 )

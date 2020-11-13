@@ -1,7 +1,7 @@
 package one
 
 import (
-	"bitbucket.org/shaman/lik"
+	"github.com/massarakhsh/lik"
 	"github.com/jinzhu/gorm"
 )
 

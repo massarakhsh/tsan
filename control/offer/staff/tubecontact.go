@@ -1,12 +1,12 @@
 package staff
 
 import (
-	"bitbucket.org/961961/tsan/control/controls"
-	"bitbucket.org/961961/tsan/jone"
-	"bitbucket.org/961961/tsan/repo"
-	"bitbucket.org/961961/tsan/show"
-	"bitbucket.org/shaman/lik"
-	"bitbucket.org/shaman/lik/likbase"
+	"github.com/massarakhsh/tsan/control/controls"
+	"github.com/massarakhsh/tsan/jone"
+	"github.com/massarakhsh/tsan/repo"
+	"github.com/massarakhsh/tsan/show"
+	"github.com/massarakhsh/lik"
+	"github.com/massarakhsh/lik/likbase"
 	"fmt"
 )
 

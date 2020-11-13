@@ -1,7 +1,7 @@
 package tsan
 
 import (
-	"bitbucket.org/shaman/lik"
+	"github.com/massarakhsh/lik"
 )
 
 //	Запрос отчета

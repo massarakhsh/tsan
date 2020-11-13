@@ -1,7 +1,7 @@
 package repo
 
 import (
-	"bitbucket.org/shaman/lik"
+	"github.com/massarakhsh/lik"
 )
 
 //	Дескриптор ядра контроллера

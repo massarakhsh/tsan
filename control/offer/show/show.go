@@ -2,11 +2,11 @@
 package show
 
 import (
-	"bitbucket.org/961961/tsan/control/controls"
-	"bitbucket.org/961961/tsan/control/offer/staff"
-	"bitbucket.org/961961/tsan/jone"
-	"bitbucket.org/961961/tsan/repo"
-	"bitbucket.org/shaman/lik"
+	"github.com/massarakhsh/tsan/control/controls"
+	"github.com/massarakhsh/tsan/control/offer/staff"
+	"github.com/massarakhsh/tsan/jone"
+	"github.com/massarakhsh/tsan/repo"
+	"github.com/massarakhsh/lik"
 	_ "image/gif"
 	_ "image/jpeg"
 	_ "image/png"

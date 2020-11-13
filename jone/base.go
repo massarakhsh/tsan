@@ -2,8 +2,8 @@
 package jone
 
 import (
-	"bitbucket.org/shaman/lik"
-	"bitbucket.org/shaman/lik/likbase"
+	"github.com/massarakhsh/lik"
+	"github.com/massarakhsh/lik/likbase"
 )
 
 //	Дескриптор таблицы базы данных

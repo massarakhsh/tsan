@@ -1,11 +1,11 @@
 package show
 
 import (
-	"bitbucket.org/961961/tsan/control"
-	"bitbucket.org/961961/tsan/jone"
-	"bitbucket.org/961961/tsan/repo"
-	"bitbucket.org/shaman/lik"
-	"bitbucket.org/shaman/lik/likdom"
+	"github.com/massarakhsh/tsan/control"
+	"github.com/massarakhsh/tsan/jone"
+	"github.com/massarakhsh/tsan/repo"
+	"github.com/massarakhsh/lik"
+	"github.com/massarakhsh/lik/likdom"
 	_ "image/gif"
 	_ "image/jpeg"
 	_ "image/png"

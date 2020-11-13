@@ -1,7 +1,7 @@
 package jone
 
 import (
-	"bitbucket.org/shaman/lik"
+	"github.com/massarakhsh/lik"
 	"strings"
 )
 

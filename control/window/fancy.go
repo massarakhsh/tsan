@@ -1,9 +1,9 @@
 package window
 
 import (
-	"bitbucket.org/961961/tsan/one"
-	"bitbucket.org/961961/tsan/repo"
-	"bitbucket.org/shaman/lik"
+	"github.com/massarakhsh/tsan/one"
+	"github.com/massarakhsh/tsan/repo"
+	"github.com/massarakhsh/lik"
 )
 
 //	Отображение окна клиента, построенного на объекте FancyGrid

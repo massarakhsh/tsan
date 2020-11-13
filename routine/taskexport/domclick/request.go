@@ -1,7 +1,7 @@
 package domclick
 
 import (
-	"bitbucket.org/shaman/lik"
+	"github.com/massarakhsh/lik"
 )
 
 //	Запрос отчета об экспорте

@@ -1,10 +1,10 @@
 package window
 
 import (
-	"bitbucket.org/961961/tsan/repo"
-	"bitbucket.org/961961/tsan/show"
-	"bitbucket.org/shaman/lik"
-	"bitbucket.org/shaman/lik/likdom"
+	"github.com/massarakhsh/tsan/repo"
+	"github.com/massarakhsh/tsan/show"
+	"github.com/massarakhsh/lik"
+	"github.com/massarakhsh/lik/likdom"
 )
 
 //	Инициализация дексриптора коллекции

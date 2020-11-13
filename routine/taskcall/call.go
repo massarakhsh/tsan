@@ -2,10 +2,10 @@
 package taskcall
 
 import (
-	"bitbucket.org/961961/tsan/jone"
-	"bitbucket.org/961961/tsan/repo"
-	"bitbucket.org/961961/tsan/routine"
-	"bitbucket.org/shaman/lik"
+	"github.com/massarakhsh/tsan/jone"
+	"github.com/massarakhsh/tsan/repo"
+	"github.com/massarakhsh/tsan/routine"
+	"github.com/massarakhsh/lik"
 	"sync"
 	"time"
 )

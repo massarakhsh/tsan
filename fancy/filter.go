@@ -1,8 +1,8 @@
 package fancy
 
 import (
-	"bitbucket.org/961961/tsan/repo"
-	"bitbucket.org/shaman/lik"
+	"github.com/massarakhsh/tsan/repo"
+	"github.com/massarakhsh/lik"
 	"fmt"
 	"math/rand"
 	"strings"

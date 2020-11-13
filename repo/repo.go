@@ -13,10 +13,10 @@
 package repo
 
 import (
-	"bitbucket.org/961961/tsan/jone"
-	"bitbucket.org/961961/tsan/one"
-	"bitbucket.org/shaman/lik"
-	"bitbucket.org/shaman/lik/likbase"
+	"github.com/massarakhsh/tsan/jone"
+	"github.com/massarakhsh/tsan/one"
+	"github.com/massarakhsh/lik"
+	"github.com/massarakhsh/lik/likbase"
 )
 
 //	Запустить и синхронизировать систему

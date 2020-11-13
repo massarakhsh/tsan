@@ -1,10 +1,10 @@
 package life
 
 import (
-	"bitbucket.org/961961/tsan/control/controls"
-	"bitbucket.org/961961/tsan/repo"
-	"bitbucket.org/shaman/lik"
-	"bitbucket.org/shaman/lik/likbase"
+	"github.com/massarakhsh/tsan/control/controls"
+	"github.com/massarakhsh/tsan/repo"
+	"github.com/massarakhsh/lik"
+	"github.com/massarakhsh/lik/likbase"
 )
 
 //	Дескриптор окна истории

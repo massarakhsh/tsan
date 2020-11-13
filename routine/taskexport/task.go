@@ -2,11 +2,11 @@
 package taskexport
 
 import (
-	"bitbucket.org/961961/tsan/jone"
-	"bitbucket.org/961961/tsan/repo"
-	"bitbucket.org/961961/tsan/routine"
-	"bitbucket.org/shaman/lik"
-	"bitbucket.org/shaman/lik/likbase"
+	"github.com/massarakhsh/tsan/jone"
+	"github.com/massarakhsh/tsan/repo"
+	"github.com/massarakhsh/tsan/routine"
+	"github.com/massarakhsh/lik"
+	"github.com/massarakhsh/lik/likbase"
 	"io/ioutil"
 	"os"
 	"strings"

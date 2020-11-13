@@ -2,12 +2,12 @@
 package staff
 
 import (
-	"bitbucket.org/961961/tsan/control/controls"
-	"bitbucket.org/961961/tsan/control/offer/files"
-	"bitbucket.org/961961/tsan/control/offer/life"
-	"bitbucket.org/961961/tsan/jone"
-	"bitbucket.org/961961/tsan/repo"
-	"bitbucket.org/shaman/lik"
+	"github.com/massarakhsh/tsan/control/controls"
+	"github.com/massarakhsh/tsan/control/offer/files"
+	"github.com/massarakhsh/tsan/control/offer/life"
+	"github.com/massarakhsh/tsan/jone"
+	"github.com/massarakhsh/tsan/repo"
+	"github.com/massarakhsh/lik"
 )
 
 //	Дескриптор служебного окна

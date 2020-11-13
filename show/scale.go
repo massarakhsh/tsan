@@ -1,7 +1,7 @@
 package show
 
 import (
-	"bitbucket.org/shaman/lik"
+	"github.com/massarakhsh/lik"
 	"github.com/nfnt/resize"
 	"image/jpeg"
 	"os"

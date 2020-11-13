@@ -2,7 +2,7 @@
 package tsan
 
 import (
-	"bitbucket.org/961961/tsan/routine/taskexport"
+	"github.com/massarakhsh/tsan/routine/taskexport"
 )
 
 type TaskTsan struct {

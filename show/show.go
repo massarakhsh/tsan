@@ -1,8 +1,8 @@
 package show
 
 import (
-	"bitbucket.org/shaman/lik"
-	"bitbucket.org/shaman/lik/likdom"
+	"github.com/massarakhsh/lik"
+	"github.com/massarakhsh/lik/likdom"
 	"fmt"
 	"math/rand"
 	"strings"

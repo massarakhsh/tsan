@@ -2,13 +2,13 @@
 package front
 
 import (
-	"bitbucket.org/961961/tsan/control"
-	"bitbucket.org/961961/tsan/control/controls"
-	"bitbucket.org/961961/tsan/control/project"
-	"bitbucket.org/961961/tsan/one"
-	"bitbucket.org/961961/tsan/repo"
-	"bitbucket.org/shaman/lik"
-	"bitbucket.org/shaman/lik/likdom"
+	"github.com/massarakhsh/tsan/control"
+	"github.com/massarakhsh/tsan/control/controls"
+	"github.com/massarakhsh/tsan/control/project"
+	"github.com/massarakhsh/tsan/one"
+	"github.com/massarakhsh/tsan/repo"
+	"github.com/massarakhsh/lik"
+	"github.com/massarakhsh/lik/likdom"
 	"fmt"
 	"strings"
 	"time"

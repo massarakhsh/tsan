@@ -1,9 +1,9 @@
 package controls
 
 import (
-	"bitbucket.org/961961/tsan/control"
-	"bitbucket.org/961961/tsan/repo"
-	"bitbucket.org/shaman/lik/likdom"
+	"github.com/massarakhsh/tsan/control"
+	"github.com/massarakhsh/tsan/repo"
+	"github.com/massarakhsh/lik/likdom"
 )
 
 //	Дескриптор элемента отображения формата 1+4

@@ -17,14 +17,14 @@
 
 <p>
     Структуры всех типов объектов базы данных и реализация интерфейса собраны в модуле
-    <a href="/pkg/bitbucket.org/961961/tsan/one/">one</a>.
+    <a href="/pkg/github.com/massarakhsh/tsan/one/">one</a>.
 </p>
 
 <p>
     До версии 3 в системе Риэлтор применяется параллельный интерфейс на модуле
-    <a href="/pkg/bitbucket.org/961961/tsan/jone/">jone</a>, использующем библиотеку
-    <a href="/pkg/bitbucket.org/shaman/lik/likbase/">likbase</a> и динамические структуры
-    <a href="/pkg/bitbucket.org/shaman/lik/">lik.Seter</a>.
+    <a href="/pkg/github.com/massarakhsh/tsan/jone/">jone</a>, использующем библиотеку
+    <a href="/pkg/github.com/massarakhsh/lik/likbase/">likbase</a> и динамические структуры
+    <a href="/pkg/github.com/massarakhsh/lik/">lik.Seter</a>.
     При этом каждая запись базы данных доступна
     через оба интерфейса под одним индексом <b>id</b>, и имеет
     как комплект полей структуры соответствующего типа из модуля <b>one</b>, так и поле <b>info</b>, в котором
@@ -35,17 +35,17 @@
 
 <p>
     Интерфейс
-    <a href="/pkg/bitbucket.org/961961/tsan/jone/">jone</a>, основанный на
-    <a href="/pkg/bitbucket.org/shaman/lik/likbase/">likbase</a>, поддерживая характерный для ORM-технологий
+    <a href="/pkg/github.com/massarakhsh/tsan/jone/">jone</a>, основанный на
+    <a href="/pkg/github.com/massarakhsh/lik/likbase/">likbase</a>, поддерживая характерный для ORM-технологий
     механизм отображения строк таблиц базы данных на объекты в памяти, в то же время
     обладает рядом особенностей:
     <ul>
     <li>Программы работают с указателями на объекты базы данных
-        <a href="/pkg/bitbucket.org/shaman/lik/likbase#ItElm">*ItElm</a>, причем каждый объект уникален,
+        <a href="/pkg/github.com/massarakhsh/lik/likbase#ItElm">*ItElm</a>, причем каждый объект уникален,
         то есть представлен одной структурой, на которую могут указывать множество указателей
     </li>
     <li>Доступ к информации в объекте производится через поле .Info, это интерфейс динамических структур
-        <a href="/pkg/bitbucket.org/shaman/lik#Seter">lik.Seter</a>. Структуры поддерживают обычные
+        <a href="/pkg/github.com/massarakhsh/lik#Seter">lik.Seter</a>. Структуры поддерживают обычные
         поля примитивов, подструктуры и массивы динамического состава, то есть жесткое следование схеме
         не является обязательным.
     </li>
@@ -60,16 +60,16 @@
 
 <p>
     Все структуры объектов композиционно включают структуру
-    <a href="/pkg/bitbucket.org/961961/tsan/one#One/">one.One</a>.
+    <a href="/pkg/github.com/massarakhsh/tsan/one#One/">one.One</a>.
     Это позволяет использовать методы интерфейса
-    <a href="/pkg/bitbucket.org/961961/tsan/one#Oner/">one.Oner</a>.
+    <a href="/pkg/github.com/massarakhsh/tsan/one#Oner/">one.Oner</a>.
 </p>
 
 <h3>Объект Depart (подразделение)</h3>
 
 <p>
     Структура объекта:
-    <a href="/pkg/bitbucket.org/961961/tsan/one#Depart/">one.Depart</a>, связи:<br>
+    <a href="/pkg/github.com/massarakhsh/tsan/one#Depart/">one.Depart</a>, связи:<br>
     DepartId - может указывать на вышестоящее подразделение, в которое входит данное.
     Таким образом, записи подразделений могут образовывать
     иерархическую структуру дерева.
@@ -79,7 +79,7 @@
 
 <p>
     Структура объекта:
-    <a href="/pkg/bitbucket.org/961961/tsan/one#Member/">one.Member</a>, связи:<br>
+    <a href="/pkg/github.com/massarakhsh/tsan/one#Member/">one.Member</a>, связи:<br>
     DepartId - подразделение, в которое входит сотрудник.
 </p>
 
@@ -87,7 +87,7 @@
 
 <p>
     Структура объекта:
-    <a href="/pkg/bitbucket.org/961961/tsan/one#Bell/">one.Bell</a>, связи:<br>
+    <a href="/pkg/github.com/massarakhsh/tsan/one#Bell/">one.Bell</a>, связи:<br>
     ClientId - клиент - инициатор,
     AcceptId - сотрудник, принявший контакт,
     MemberId - ответственный риэлтор,
@@ -99,7 +99,7 @@
 
 <p>
     Структура объекта:
-    <a href="/pkg/bitbucket.org/961961/tsan/one#Offer/">one.Offer</a>, связи:<br>
+    <a href="/pkg/github.com/massarakhsh/tsan/one#Offer/">one.Offer</a>, связи:<br>
     ClientId - клиент - инициатор,
     MemberId - ответственный риэлтор,
     ObjectId - объект недвижимости,
@@ -109,21 +109,21 @@
 
 <p>
     Структура объекта:
-    <a href="/pkg/bitbucket.org/961961/tsan/one#Object/">one.Object</a>.<br>
+    <a href="/pkg/github.com/massarakhsh/tsan/one#Object/">one.Object</a>.<br>
 </p>
 
 <h3>Объект Client (клиент)</h3>
 
 <p>
     Структура объекта:
-    <a href="/pkg/bitbucket.org/961961/tsan/one#Client/">one.Client</a>.<br>
+    <a href="/pkg/github.com/massarakhsh/tsan/one#Client/">one.Client</a>.<br>
 </p>
 
 <h3>Объект Deal (сделка)</h3>
 
 <p>
     Структура объекта:
-    <a href="/pkg/bitbucket.org/961961/tsan/one#Deal/">one.Deal</a>.<br>
+    <a href="/pkg/github.com/massarakhsh/tsan/one#Deal/">one.Deal</a>.<br>
     SeleId - заявка на продажу, сдачу в аренду,
     ByeId - завка на покупку, съем
 </p>
@@ -132,7 +132,7 @@
 
 <p>
     Структура объекта:
-    <a href="/pkg/bitbucket.org/961961/tsan/one#Pin/">one.Pin</a>.<br>
+    <a href="/pkg/github.com/massarakhsh/tsan/one#Pin/">one.Pin</a>.<br>
     MemberId - сотрудник, за которым закреплен телефон
 </p>
 
