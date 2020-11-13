@@ -1,0 +1,6 @@
+/.idea/
+var*
+*.exe
+*.bin
+*.cmd
+*.sh

@@ -1,0 +1,562 @@
+body {
+	margin: 2px;
+	background: #fff;
+	font-family: Calibri;
+}
+
+div, table, tr, td {
+    border-spacing: 0;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+}
+
+.fill {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.fillw {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.fills {
+	width: 99%;
+	height: 99%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.fillm {
+	width: 99%;
+	height: 99%;
+}
+
+td.center {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.active {
+	cursor: pointer;
+}
+
+.small, .rls {
+	font-size: 8pt !important;
+	font-family: Tahoma;
+	margin-right: 0;
+	bottom-right: 0;
+	color: #ccc;
+}
+
+div.main_page {
+}
+
+div.popover {
+	float: left;
+}
+
+div.popin {
+	position: absolute;
+	background: #ded;
+	border: solid 1px #8a8;
+	padding: 2px 4px;
+}
+
+.topcmd {
+	vert-align: middle;
+}
+
+div.top {
+	vert-align: middle;
+	height: 100%;
+}
+
+div.toc {
+	float: left;
+}
+
+div.tocin {
+	font-size: 13pt !important;
+	font-family: Arial;
+	font-weight: bold;
+	cursor: pointer;
+	color: #000;
+	border: solid 1px #888;
+	border-radius: 5px;
+	padding: 0px 4px;
+	margin: 0px 2px;
+	background: #ccc;
+}
+
+div.tocin a {
+	color: #000;
+	text-decoration: none;
+}
+
+div.tocact {
+	background: #8f8;
+}
+
+div.toc img {
+	width: 20px;
+	height: 20px;
+	vert-align: middle;
+}
+
+img.picmd {
+	width: 20px;
+	height: 20px;
+	margin: 2px;
+	border: solid 1px #999;
+	cursor: pointer;
+}
+
+img.picsm {
+	width: 14px;
+	height: 14px;
+	margin: 0;
+	border: solid 1px #bbb;
+}
+
+img.picno {
+	border: 0;
+	cursor: auto;
+}
+
+img.picon {
+	background: transparent;
+	border-top: solid 1px #844;
+	border-left: solid 1px #844;
+	border-bottom: solid 1px #fcc;
+	border-right: solid 1px #fcc;
+}
+
+td.main_menu {
+	padding-bottom: 1px;
+}
+
+td.main_data {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	padding-top: 4px;
+}
+
+table.main_menu {
+	width: 100%;
+	background: #555;
+	border-top: 2px solid #555;
+}
+
+td.menu {
+	padding: 0px 4px 2px 4px;
+	border: 2px solid #555;
+	background: #555;
+	color: #bbb;
+	border-radius: 4px 4px 0 0;
+}
+
+td.menu_act {
+	cursor: pointer;
+	color: #fff;
+}
+
+td.menu_act:hover {
+	text-decoration: underline;
+}
+
+td.menu_sel {
+	background: #fff;
+	color: #000;
+	border-bottom-color: #fff;
+	font-weight: bold;
+}
+
+td.menu_pel {
+	border: 1px solid #fff;
+}
+
+td.menu_logo {
+	color: #ccf;
+	font-size: 11pt;
+	font-family: Tahoma;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
+	padding: 0 8px;
+}
+
+td.menu_logo img {
+	vertical-align: middle;
+	height: 20px;
+}
+
+td.menu_sep {
+	width: 100%;
+}
+
+div.main_view {
+	width: 100%;
+	height: 100%;
+}
+
+table.main_view {
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+td.main_view {
+	border: 1px solid #fef;
+}
+
+div.roll_data {
+	display: block;
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
+}
+
+div.roll_form {
+	width: 400px;
+	height: 500px;
+	max-width: 400px;
+	max-height: 500px;
+	overflow: hidden;
+	overflow-scrolling: auto;
+}
+
+td.tree_switch {
+	vertical-align: top;
+}
+
+td.tree_line {
+	width: 100%;
+}
+
+div.tree_sel {
+	background: #ccd;
+	color: #008;
+}
+
+div.tree_elm {
+	float: left;
+	width: 90%;
+	padding: 0px 8px 0px 4px;
+	text-align: left;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+td.tree_loc {
+	border: solid 1px #caa;
+}
+
+td.tune_title {
+}
+
+td.tune_data {
+	color: #006;
+	padding: 1px 8px;
+}
+
+td.section {
+	vertical-align: top;
+	text-align: left;
+	padding: 4px;
+	border: solid 1px #ccc;
+}
+
+td.srvtime {
+	vertical-align: bottom;
+	font-family: "Courier New";
+	font-size: 11pt;
+	color: #ccd;
+}
+
+.srvoff {
+	background: #f00;
+	color: #ff0;
+	padding: 0px 8px;
+}
+
+td.progress {
+	padding: 4px 12px;
+	text-align: center;
+	font-size: large;
+	color: #777;
+}
+
+td.progress_where, td.progress_what {
+	padding: 2px 8px 2px 8px;
+	border: 1px solid #bbb;
+}
+
+td.progress_where {
+	color: #040;
+}
+
+td.progress_what {
+	color: #004;
+}
+
+td.imgcmd {
+	vertical-align: top;
+	text-align: left;
+}
+
+img.imgedit {
+	height: 80px;
+}
+
+.gridphoto img {
+	height: 80px;
+}
+
+.gridcmd {
+	cursor: pointer;
+	color: #008;
+}
+
+.gridimg {
+	width: 24px;
+	height: 24px;
+}
+
+.ddsetch {
+	min-width: 140px !important;
+}
+
+.syscmd {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.syscmd:hover {
+	color: #f00;
+}
+
+.must .fancy-field-label {
+	color: #800;
+}
+
+.must {
+	color: #800;
+}
+
+.readonly input {
+	background: #ccc !important;
+	color: #000 !important;
+}
+
+.cmd {
+	cursor: pointer;
+	color: #009;
+	font-size: 10pt;
+}
+.cmd:hover {
+	text-decoration: underline;
+}
+
+.txtcmd {
+	cursor: pointer;
+	color: #009;
+	font-size: 13pt;
+}
+.txtcmd:hover {
+	color: #909;
+}
+
+.cmdatt {
+	cursor: pointer;
+	text-decoration: blink;
+	color: #a00;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.cmdenter {
+	display: inline;
+	cursor: pointer;
+	font-size: 14pt;
+	background: #667;
+	color: #fff;
+	padding: 2px 8px;
+	margin: 12px;
+	/*border: solid 1px #8;*/
+	border-radius: 4px;
+	box-shadow: 2px 2px #aad;
+}
+
+table.mapcmd {
+	width: 100%;
+	background: #eee;
+}
+
+td.mapcmd {
+	cursor: pointer;
+	font-size: 10pt;
+	padding: 1px 2px 1px 2px;
+	color: #fff;
+	background: #555;
+	border: solid 1px #eee;
+}
+
+td.mappass {
+	color: #999;
+	background: #ccc;
+}
+
+.imgshow {
+	background: url("/images/show.png");
+	background-size: 18px;
+}
+.imgbell {
+	background: url("/images/phone.png");
+	background-size: 18px;
+}
+.imgmail {
+	background: url("/images/mail.png");
+	background-size: 18px;
+}
+.imgadd {
+	background: url("/images/create.png");
+	background-size: 18px;
+}
+.imgmod {
+	background: url("/images/edit.png");
+	background-size: 18px;
+}
+.imgset {
+	background: url("/images/columns.png");
+	background-size: 18px;
+}
+.imgsel {
+	background: url("/images/select.png");
+	background-size: 18px;
+}
+.imgdel {
+	background: url("/images/delete.png");
+	background-size: 18px;
+}
+.imgdup {
+	background: url("/images/duplicate.png");
+	background-size: 18px;
+}
+.imgplus {
+	background: url("/images/plus.png");
+	background-size: 24px;
+	background-repeat: no-repeat;
+}
+.imgmember {
+	background: url("/images/member.png");
+	background-size: 24px;
+	background-repeat: no-repeat;
+}
+.imgno {
+	background: url("/images/no.png");
+	background-size: 24px;
+	background-repeat: no-repeat;
+}
+
+.money {
+	text-align: right;
+}
+
+.separator {
+	background: #ccc;
+}
+
+textarea.definition {
+	height: 250px;
+}
+div.definition {
+	font-size: 12pt;
+	white-space: normal;
+}
+
+.listpart {
+	width: 100%;
+	height: 100%;
+	min-width: 500px;
+	min-height: 200px;
+}
+
+td.topname {
+	padding: 0 8px;
+	color: #224;
+}
+
+table.manage {
+	width: 100%;
+	padding: 1px;
+}
+
+table.manage td {
+	text-align: left;
+	vertical-align: top;
+	padding: 2px 8px;
+}
+
+.bonus {
+	padding: 1px 4px;
+	border: 1px solid #888;
+}
+
+.bonplus {
+	background: #040;
+}
+
+.bonminus {
+	background: #400;
+}
+
+.mantitle {
+	background: #ddd;
+}
+
+.maninfo {
+	background: #ddd;
+}
+
+td.pair {
+	text-align: center;
+	vertical-align: top;
+}
+
+td.tophead {
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center !important;
+	background: #ccc;
+}
+
+td.attention {
+	font-weight: bold;
+	color: #c00;
+}
+
+a.menutop {
+	color: #ddf;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.menutop:hover {
+	text-decoration: underline;
+}
+
+.atten {
+	color: #b00;
+}

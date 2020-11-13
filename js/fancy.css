@@ -1,0 +1,92 @@
+div.show-fancy-grid {
+}
+
+div.show-fancy-grid .fancy-grid-cell {
+    color: #000;
+}
+
+div.fancy-bar-text {
+    color: #446;
+    font-size: 12pt;
+}
+
+.fancy-grid-header-cell-text {
+    color: #668;
+}
+
+div.fancy-grid-cell {
+    font-size: 10pt;
+}
+
+.fancy-grid-cell-selected {
+    background: #bcb !important;
+}
+
+div.show-fancy-form {
+}
+
+.fancy-field-text-input {
+    color: #000 !important;
+}
+
+div.edit-fancy-form {
+    border: 2px solid #446 !important;
+}
+
+div.show-fancy-form .fancy-panel-header {
+    background-color: #555;
+    color: #fff;
+}
+
+div.edit-fancy-form .fancy-panel-header {
+    background-color: #446;
+    color: #fff;
+}
+
+div.delete-fancy-form .fancy-panel-header {
+    background-color: #644;
+    color: #ff8;
+}
+
+.fancy-tool-button {
+    font-size: 11pt;
+    margin: 4px 4px 2px 4px;
+    border: 1px solid #579;
+    padding: 2px 4px 2px 4px;
+}
+
+div.show-fancy-form, div.edit-fancy-form, div.delete-fancy-form {
+    border: 2px solid #888 !important;
+}
+
+div.fancy-form {
+    min-height: 250px !important;
+}
+
+.fancy-tool-button {
+    font-size: 10pt;
+    margin: 10px 4px 2px 4px;
+    border: 1px solid #579;
+    padding: 2px 4px 2px 4px;
+}
+
+.fancy-tool-button:hover {
+    background-color: #333;
+}
+
+div.fancy-field-picker-button {
+    background: url(/images/calendar16.png) no-repeat center !important;
+}
+
+.fancy-field-line-items .fancy-field {
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+}
+
+div.fancy-menu {
+    background: #dde;
+}
+
+div.fancy-menu-active {
+}
+
